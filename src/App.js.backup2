@@ -1,0 +1,22 @@
+import React from "react";
+
+import MyNavbar from './components/MyNavbar';
+import MyMain from './components/MyMain'
+import MyFooter from './components/MyFooter'
+import MyCard from './components/ContactCard'
+import ContactCard from "./components/ContactCard";
+
+
+function App() {
+  return (
+  <div>
+  <MyNavbar />
+  <MyMain />
+  <MyFooter />
+  <ContactCard />
+
+  </div> 
+  );
+}
+
+export default App;
